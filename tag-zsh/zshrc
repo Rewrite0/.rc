@@ -118,8 +118,8 @@ alias -s rar='rar x'
 alias -s 7z='7z x'
 
 #ssh
-alias ali='ssh root@123.57.69.187'
 alias vps='ssh root@204.44.83.246'
+alias mido='ssh re@192.168.10.10'
 
 #alias
 alias ra=ranger
@@ -140,3 +140,7 @@ alias en='trans en:zh'
 alias zh='trans zh:en'
 #live_wallpaper控制台
 alias vwc=/home/rewrite/scripts/dwm-scripts/live-wallpaper-console.sh
+#crontab
+alias cronl='sudo crontab -u rewrite -l'
+alias crone='sudo crontab -u rewrite -e'
+alias cron='sudo crontab -u rewrite'
