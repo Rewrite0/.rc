@@ -135,6 +135,7 @@ alias ic=/home/rewrite/scripts/img-compression.sh
 alias bm=/home/rewrite/scripts/bluetooth-manager.sh
 alias cl=/home/rewrite/scripts/clash.sh
 alias m=neomutt
+alias kl=/home/rewrite/scripts/keyboard-light.sh
 #翻译
 alias en='trans en:zh'
 alias zh='trans zh:en'
