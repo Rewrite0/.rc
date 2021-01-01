@@ -1,7 +1,3 @@
-[http]
-	proxy = http://127.0.0.1:7890
-[https]
-	proxy = http://127.0.0.1:7890
 [user]
 	name = Rewrite0
 	email = 49576640+Rewrite0@users.noreply.github.com
