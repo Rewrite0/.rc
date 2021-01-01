@@ -101,13 +101,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
-#npm环境变量
-NPM_PACKAGES="${HOME}/.config/npm-packages"
-PATH="$NPM_PACKAGES/bin:$PATH"
-
-unset MANPATH
-export MANPATH="$NPM_PACKAGES/share/man:$(manpath)"
-
 
 #输入压缩文件名自动解压
 alias -s gz='tar -xzvf'
@@ -119,7 +112,7 @@ alias -s 7z='7z x'
 
 #ssh
 alias vps='ssh root@204.44.83.246'
-alias mido='ssh re@192.168.10.10'
+alias pi='ssh pi@192.168.0.2'
 
 #alias
 alias ra=ranger
@@ -132,9 +125,7 @@ alias il=/home/rewrite/scripts/imglink.sh
 alias ngi='nvim .gitignore'
 alias ddf=/home/rewrite/scripts/trash.sh
 alias ic=/home/rewrite/scripts/img-compression.sh
-alias bm=/home/rewrite/scripts/bluetooth-manager.sh
 alias cl=/home/rewrite/scripts/clash.sh
-alias m=neomutt
 alias kl=/home/rewrite/scripts/keyboard-light.sh
 #翻译
 alias en='trans en:zh'
