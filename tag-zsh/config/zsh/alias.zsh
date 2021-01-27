@@ -13,6 +13,7 @@ alias pi='ssh pi@192.168.0.2'
 #alias
 alias la='ls -a'
 alias ll='ls -al'
+alias wine5='WINEPREFIX=~/.wine5 deepin-wine5'
 alias ra=ranger
 alias s=neofetch
 alias scfg=/home/rewrite/scripts/switchcfg.sh
