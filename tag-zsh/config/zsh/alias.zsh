@@ -30,7 +30,7 @@ alias kl=/home/rewrite/scripts/keyboard-light.sh
 alias en='trans en:zh'
 alias zh='trans zh:en'
 #live_wallpaper控制台
-alias vwc=/home/rewrite/scripts/dwm-scripts/live-wallpaper-console.sh
+alias vwc=/home/rewrite/prog/dwm/scripts/live-wallpaper-console.sh
 #crontab
 alias cronl='sudo crontab -u rewrite -l'
 alias crone='sudo crontab -u rewrite -e'
