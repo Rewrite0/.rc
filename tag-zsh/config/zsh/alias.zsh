@@ -13,7 +13,7 @@ alias pi='ssh pi@192.168.3.2'
 #alias
 alias la='ls -a'
 alias ll='ls -al'
-alias wine5='WINEPREFIX=~/.Wines/.wine5 deepin-wine5'
+alias wine5='WINEPREFIX=~/.Wines/wine5 deepin-wine5'
 alias ra=ranger
 alias s=neofetch
 alias scfg=/home/rewrite/scripts/switchcfg.sh
@@ -22,7 +22,6 @@ alias mu=/home/rewrite/scripts/mount-disk.sh
 alias lg=lazygit
 alias il=/home/rewrite/scripts/imglink.sh
 alias ngi='nvim .gitignore'
-alias ddf=/home/rewrite/scripts/trash.sh
 alias ic=/home/rewrite/scripts/img-compression.sh
 alias cl=/home/rewrite/scripts/clash.sh
 alias kl=/home/rewrite/scripts/keyboard-light.sh
