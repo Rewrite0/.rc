@@ -5,4 +5,4 @@ PATH="$NPM_PACKAGES/bin:$PATH"
 unset MANPATH
 export MANPATH="$NPM_PACKAGES/share/man:$(manpath)"
 
-#export WINEARCH=win32
+export WINEARCH=win32
