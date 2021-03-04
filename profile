@@ -6,3 +6,6 @@ unset MANPATH
 export MANPATH="$NPM_PACKAGES/share/man:$(manpath)"
 
 export WINEARCH=win32
+
+# xz多线程
+export XZ_DEFAULTS="-T 0"
