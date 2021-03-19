@@ -7,7 +7,7 @@ alias -s rar='rar x'
 alias -s 7z='7z x'
 
 #ssh
-alias vps='ssh root@pr.re-blog.tk'
+alias vps='ssh root@pr.rewrite.cf'
 alias pi='ssh pi@192.168.3.2'
 
 #alias
@@ -30,6 +30,7 @@ alias wine64='WINEARCH=win64 WINEPREFIX=~/.Wines/wine64 wine'
 # 图片压缩
 alias ic=/home/rewrite/scripts/img-compression.sh
 # clash
+alias cl='/home/rewrite/scripts/clash.sh'
 alias cls='/home/rewrite/scripts/clash.sh status'
 alias clr='/home/rewrite/scripts/clash.sh restart'
 # 外接键盘光
