@@ -40,4 +40,4 @@ zstyle :prompt:pure:git:stash show yes
 zstyle :prompt:pure:git:fetch only_upstream yes
 
 #alias
-source ~/.config/zsh/alias.zsh
+source ~/.config/zsh/aliases.zsh
