@@ -23,7 +23,7 @@ alias il=/home/rewrite/scripts/imglink.sh
 alias ngi='nvim .gitignore'
 # 显卡切换
 alias sn='/home/rewrite/scripts/switchGPU.sh nvidia'
-alias si='/home/rewrite/scripts/switchGPU.sh intel'
+alias si='/home/rewrite/scripts/switchGPU.sh integrated'
 # wine
 alias wine5='WINEPREFIX=~/.Wines/wine5 deepin-wine5'
 alias wine64='WINEARCH=win64 WINEPREFIX=~/.Wines/wine64 wine'
