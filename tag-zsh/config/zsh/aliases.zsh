@@ -7,13 +7,12 @@ alias -s rar='rar x'
 alias -s 7z='7z x'
 
 #ssh
-alias vps='ssh root@pr.rewrite.cf'
+alias vps='ssh root@vps.rewrite.cf'
 alias pi='ssh pi@192.168.3.2'
 
 #alias
 alias la='ls -a'
 alias ll='ls -al'
-
 alias ra=ranger
 alias s=neofetch
 alias scfg=/home/rewrite/scripts/switchcfg.sh
