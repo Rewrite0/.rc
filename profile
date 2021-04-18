@@ -11,9 +11,9 @@ export WINEARCH=win32
 # xz多线程
 export XZ_DEFAULTS="-T 0"
 
-# dwmblocks-script
-DWMBLOCK_SCRIPT="${HOME}/prog/dwm/dwmbar/scripts"
-PATH="$DWMBLOCK_SCRIPT:$PATH"
+# dwmHome
+export DWMHOME="${HOME}/prog/dwm/scripts"
+export PATH="$DWMHOME:$PATH"
 
 # terminal
 export TERMINAL=/usr/local/bin/st
