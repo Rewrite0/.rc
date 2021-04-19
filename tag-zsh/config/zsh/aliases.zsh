@@ -29,9 +29,8 @@ alias wine64='WINEARCH=win64 WINEPREFIX=~/.Wines/wine64 wine'
 # 图片压缩
 alias ic=/home/rewrite/scripts/img-compression.sh
 # clash
-alias cl='/home/rewrite/scripts/clash.sh'
-alias cls='/home/rewrite/scripts/clash.sh status'
-alias clr='/home/rewrite/scripts/clash.sh restart'
+alias cls='systemctl status clash'
+alias clr='systemctl restart clash'
 # 外接键盘光
 alias kl=/home/rewrite/scripts/keyboard-light.sh
 #翻译
