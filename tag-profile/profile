@@ -17,3 +17,6 @@ export PATH="$DWMHOME:$PATH"
 
 # terminal
 export TERMINAL=/usr/local/bin/st
+
+#多显卡显示
+export DRI_PRIME=1
