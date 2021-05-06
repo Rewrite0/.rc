@@ -7,7 +7,7 @@ alias -s rar='rar x'
 alias -s 7z='7z x'
 
 #ssh
-alias vps='ssh root@vps.rewrite.cf'
+alias pr='ssh root@pr.rewrite.cf'
 alias buyvm='ssh root@198.98.52.123'
 alias pi='ssh pi@192.168.3.2'
 

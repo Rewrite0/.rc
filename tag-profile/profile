@@ -1,4 +1,5 @@
 #环境变量
+export MESA_GL_VERSION_OVERRIDE=4.5
 #npm环境变量
 NPM_PACKAGES="${HOME}/.config/npm-packages"
 PATH="$NPM_PACKAGES/bin:$PATH"
