@@ -6,11 +6,6 @@ alias -s bz2='tar -xjvf'
 alias -s rar='rar x'
 alias -s 7z='7z x'
 
-#ssh
-alias pr='ssh root@pr.rewrite.cf'
-alias buyvm='ssh root@198.98.52.123'
-alias pi='ssh pi@192.168.3.2'
-
 #alias
 alias la='ls -a'
 alias ll='ls -al'
@@ -21,6 +16,8 @@ alias mu=/home/rewrite/scripts/mount-disk.sh
 alias lg=lazygit
 alias il=/home/rewrite/scripts/imglink.sh
 alias ngi='nvim .gitignore'
+alias rm=/home/rewrite/scripts/trash.sh
+alias rrm=/usr/bin/rm
 # 显卡切换
 alias sn='/home/rewrite/scripts/switchGPU.sh nvidia'
 alias si='/home/rewrite/scripts/switchGPU.sh integrated'

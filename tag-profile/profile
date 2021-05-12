@@ -21,3 +21,7 @@ export TERMINAL=/usr/local/bin/st
 
 #多显卡显示
 export DRI_PRIME=1
+# intel
+export LIBVA_DRIVER_NAME=i965 && export VDPAU_DRIVER=va_gl
+# nvidia
+#export LIBVA_DRIVER_NAME=vdpau && export VDPAU_DRIVER=nvidia
