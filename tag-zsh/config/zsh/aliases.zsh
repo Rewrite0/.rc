@@ -43,3 +43,4 @@ alias cron='sudo crontab -u rewrite'
 # tmux
 alias tn='tmux new -s'
 alias ta='tmux attach -t'
+alias ts='tmux ls'
