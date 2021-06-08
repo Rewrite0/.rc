@@ -39,4 +39,5 @@ zstyle ':prompt:pure:prompt:*' color cyan
 zstyle :prompt:pure:git:stash show yes
 zstyle :prompt:pure:git:fetch only_upstream yes
 
-source ~/.config/zsh/*.zsh
+source ~/.config/zsh/aliases.zsh
+source ~/.config/zsh/ssh.zsh
