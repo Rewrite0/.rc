@@ -1,0 +1,27 @@
+sleep 1
+#xrdb -merge ~/.Xresources
+
+#环境变量
+export LANG=zh_CN.UTF-8
+export LANGUAGE=zh_CN:en_US
+export LC_COLLATE=C
+
+#node_modules环境变量
+PATH="$HOME/.local/node_modules/bin:$PATH"
+
+# xz多线程
+export XZ_DEFAULTS="-T 0"
+
+# dwmHome
+export DWMHOME="${HOME}/prog/dwm/scripts"
+export PATH="$DWMHOME:$PATH"
+
+# terminal
+export TERMINAL=/usr/local/bin/st
+
+export STEAM_RUNTIME=1
+
+export SDL_VIDEODRIVER=x11
+export QT_QPA_PLATFORM="wayland;xcb"
+export QT_QPA_PLATFORMTHEME=qt5ct
+export CLUTTER_BACKEND=wayland
