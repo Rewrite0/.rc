@@ -11,9 +11,10 @@
 				"on-click": "activate",
 				"on-click-middle": "close",
 				"on-click-right": "minimize",
-				//"ignore-list": [],
+				"ignore-list": [],
 				"app_ids-mapping": {
-					"firefoxdeveloperedition": "firefox-developer-edition"
+					"firefoxdeveloperedition": "firefox-developer-edition",
+					"st-256color": "st"
 				}
 		},
 
