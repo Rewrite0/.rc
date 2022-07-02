@@ -1,15 +1,16 @@
 {
     "layer": "bottom",
-		"height": 25,
+		"height": 35,
 
     "modules-left": ["wlr/taskbar"],
 
 		"wlr/taskbar": {
 				"format": "{icon}, {title}",
-				"icon-size": 20,
 				"tooltip-format": "{title}",
+				"icon-size": 18,
 				"on-click": "activate",
 				"on-click-middle": "close",
+				"on-click-right": "minimize",
 				//"ignore-list": [],
 				"app_ids-mapping": {
 					"firefoxdeveloperedition": "firefox-developer-edition"
