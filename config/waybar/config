@@ -22,6 +22,7 @@
 			"cpu",
 			"memory",
 			"temperature",
+			"backlight",
 			"pulseaudio",
 			"network",
 			"battery",
@@ -41,9 +42,14 @@
 		"temperature": {
 				"format": "{temperatureC}°C "
 		},
+		"backlight": {
+				"device": "intel_backlight",
+				"format": "{percent}% {icon}",
+				"format-icons": ["", ""]
+		},
 		"pulseaudio": {
 				"format": "{volume}% {icon}",
-				"format-bluetooth": "{volume}% {icon}",
+				"format-bluetooth": "{volume}% ",
 				"format-muted": "",
 				"format-icons": {
 						"headphone": "",
