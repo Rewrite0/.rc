@@ -41,4 +41,3 @@ zstyle :prompt:pure:git:fetch only_upstream yes
 
 source ~/.config/zsh/aliases.zsh
 source ~/.config/zsh/ssh.zsh
-source ~/.xprofile
