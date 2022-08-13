@@ -5,7 +5,7 @@
     "modules-left": ["wlr/taskbar"],
 
 		"wlr/taskbar": {
-				"format": "{icon}, {title}",
+				"format": "{icon}",
 				"tooltip-format": "{title}",
 				"icon-size": 18,
 				"on-click": "activate",
@@ -81,7 +81,8 @@
         "format-icons": ["", "", "", "", ""]
     },
     "clock": {
-        "format-alt": "{:%a, %d. %b  %H:%M}"
+        /*"format": "{:%a, %d. %b  %H:%M}"*/
+        "format": "{:%Y年%b%d日  %H:%M  周%a}"
     },
 		"tray": {
 				"spacing": 6
