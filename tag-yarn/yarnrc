@@ -3,5 +3,5 @@
 
 
 registry "https://registry.npm.taobao.org/"
-lastUpdateCheck 1657940539806
+lastUpdateCheck 1662101522639
 prefix "~/.local/node_modules"

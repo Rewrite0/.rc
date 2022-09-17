@@ -7,6 +7,8 @@ export LANGUAGE=zh_CN:en_US
 export LC_COLLATE=C
 export PNPM_HOME="/home/re/.local/share/pnpm"
 export PATH="$PNPM_HOME:$PATH"
+export USERBIN="/home/re/.local/bin"
+export PATH="$USERBIN:$PATH"
 
 # xz多线程
 export XZ_DEFAULTS="-T 0"
