@@ -40,3 +40,5 @@ alias cron='sudo crontab -u re'
 alias tn='tmux new -s'
 alias ta='tmux attach -t'
 alias ts='tmux ls'
+# wine
+alias wine5="WINEPREFIX=~/.deepinwine/wine WINEARCH=win32 deepin-wine5"
