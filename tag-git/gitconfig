@@ -3,3 +3,5 @@
 	email = 49576640+Rewrite0@users.noreply.github.com
 [http]
 	postBuffer = 524288000
+[init]
+	defaultBranch = main
