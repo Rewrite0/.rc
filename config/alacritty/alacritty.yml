@@ -57,7 +57,7 @@ font:
     style: Bold Italic
 
     # 字大小
-  size: 14.0 
+  size: 12.0 
 
   # 每个字符的间的字间距。"offset.y" 可以控制行距，"offset.x" 可以改变字符间距。
   offset:
