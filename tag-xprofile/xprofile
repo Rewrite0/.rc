@@ -5,26 +5,27 @@ sleep 1
 export LANG=zh_CN.UTF-8
 export LANGUAGE=zh_CN:en_US
 export LC_COLLATE=C
-export PNPM_HOME="/home/re/.local/share/pnpm"
-export PATH="$PNPM_HOME:$PATH"
-export USERBIN="/home/re/.local/bin"
-export PATH="$USERBIN:$PATH"
+
+export PNPM_HOME="$HOME/.local/share/pnpm"
+export USERBIN="$HOME/.local/bin"
+
 # android sdk
-export ANDROID_HOME="/home/re/Android/Sdk"
+export ANDROID_HOME="$HOME/Android/Sdk"
 
 # xz多线程
 export XZ_DEFAULTS="-T 0"
 
 # dwmHome
-export DWMHOME="${HOME}/prog/dwm/scripts"
-export PATH="$DWMHOME:$PATH"
+export DWM="${HOME}/prog/dwm"
+
+# PATH
+export PATH="$PNPM_HOME:$USERBIN:$DWM:$PATH"
 
 # terminal
 export TERMINAL=/usr/local/bin/st
-
 export STEAM_RUNTIME=1
 
-export SDL_VIDEODRIVER=x11
-export QT_QPA_PLATFORM="wayland;xcb"
-export QT_QPA_PLATFORMTHEME=qt5ct
-export CLUTTER_BACKEND=wayland
+# export SDL_VIDEODRIVER=x11
+# export QT_QPA_PLATFORM="wayland;xcb"
+# export QT_QPA_PLATFORMTHEME=qt5ct
+# export CLUTTER_BACKEND=wayland

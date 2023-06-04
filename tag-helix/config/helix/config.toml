@@ -1,0 +1,23 @@
+# theme = "onedark"
+# theme = "everforest_dark"
+theme = "github_dark_dimmed"
+
+[editor]
+true-color = true
+line-number = "relative"
+mouse = true
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.file-picker]
+hidden = false
+
+[keys.normal]
+"C-/" = "toggle_comments"
+"C-k" = "half_page_up"
+"C-j" = "half_page_down"
+"A-h" = "goto_line_start"
+"A-l" = "goto_line_end"
