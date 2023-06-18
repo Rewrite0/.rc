@@ -42,3 +42,9 @@ auto-format = true
 
 [language.config.typescript]
 tsdk = "/home/re/.local/share/pnpm/global/5/node_modules/typescript/lib"
+
+[[language]]
+name = "python"
+roots = ["pyproject.toml"]
+language-server = { command = "pyright-langserver", args = ["--stdio"] }
+config = {}                                                              # <- this is the important line
