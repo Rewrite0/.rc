@@ -16,8 +16,12 @@ export ANDROID_HOME="$HOME/Android/Sdk"
 # dwm
 export DWM="$HOME/prog/dwm"
 
+# cargo
+export CARGO_HOME="/home/re/.cargo"
+export CARGO_BIN="$CARGO_HOME/bin"
+
 # PATH
-export PATH="$USERBIN:$PNPM_HOME:$DWM:$PATH"
+export PATH="$CARGO_BIN:$USERBIN:$PNPM_HOME:$DWM:$PATH"
 
 # xz多线程
 export XZ_DEFAULTS="-T 0"
