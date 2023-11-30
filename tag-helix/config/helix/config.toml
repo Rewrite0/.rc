@@ -1,6 +1,4 @@
-# theme = "onedark"
-# theme = "everforest_dark"
-theme = "github_dark_dimmed"
+theme = "catppuccin_macchiato"
 
 [editor]
 true-color = true
@@ -15,9 +13,18 @@ select = "underline"
 [editor.file-picker]
 hidden = false
 
+[editor.lsp]
+display-messages = true
+display-inlay-hints = true
+
+[editor.indent-guides]
+#垂直缩进参考线
+render = true
+
 [keys.normal]
+C-s = ":w"
 "C-/" = "toggle_comments"
-"C-k" = "half_page_up"
-"C-j" = "half_page_down"
-"A-h" = "goto_line_start"
-"A-l" = "goto_line_end"
+C-k = "half_page_up"
+C-j = "half_page_down"
+A-h = "goto_line_start"
+A-l = "goto_line_end"

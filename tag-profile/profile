@@ -1,25 +1,25 @@
-sleep 1
 #xrdb -merge ~/.Xresources
 
-#环境变量
 export LANG=zh_CN.UTF-8
 export LANGUAGE=zh_CN:en_US
 export LC_COLLATE=C
 
+export USER_BIN="$HOME/.local/bin"
+
+# pnpm
 export PNPM_HOME="$HOME/.local/share/pnpm"
-export USERBIN="$HOME/.local/bin"
 
 # android sdk
 export ANDROID_HOME="$HOME/Android/Sdk"
 
-# xz多线程
-export XZ_DEFAULTS="-T 0"
-
-# dwmHome
-export DWM="${HOME}/prog/dwm"
+# dwm
+export DWM="$HOME/prog/dwm"
 
 # PATH
-export PATH="$PNPM_HOME:$USERBIN:$DWM:$PATH"
+export PATH="$USERBIN:$PNPM_HOME:$DWM:$PATH"
+
+# xz多线程
+export XZ_DEFAULTS="-T 0"
 
 # terminal
 export TERMINAL=/usr/local/bin/st

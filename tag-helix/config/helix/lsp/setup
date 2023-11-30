@@ -1,0 +1,2 @@
+export HX_LSP=/home/re/.config/helix/lsp/node_modules/.bin/
+export PATH=$HX_LSP:$PATH

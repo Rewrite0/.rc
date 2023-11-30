@@ -39,10 +39,6 @@ zstyle ':prompt:pure:prompt:*' color cyan
 zstyle :prompt:pure:git:stash show yes
 zstyle :prompt:pure:git:fetch only_upstream yes
 
+source ~/.profile
 source ~/.config/zsh/aliases.zsh
-source ~/.config/zsh/ssh.zsh
-
-# pnpm
-export PNPM_HOME="/home/re/.local/share/pnpm"
-export PATH="$PNPM_HOME:$PATH"
-# pnpm end
+#source ~/.config/zsh/ssh.zsh
