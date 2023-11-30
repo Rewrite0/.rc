@@ -11,17 +11,12 @@ alias la='ls -a'
 alias ll='ls -al'
 alias ra=ranger
 alias s=neofetch
-alias scfg=/home/re/scripts/switchcfg.sh
-alias mu=/home/re/scripts/mount-disk.sh
 alias lg=lazygit
-alias il=/home/re/scripts/imglink.sh
 alias ngi='nvim .gitignore'
 alias update='sudo reflector --verbose --country China -l 10 --sort rate --save /etc/pacman.d/mirrorlist'
 # 显卡切换
 alias sn='/home/re/scripts/switchGPU.sh nvidia'
 alias si='/home/re/scripts/switchGPU.sh integrated'
-# 图片压缩
-alias ic=/home/re/scripts/img-compression.sh
 # clash
 alias cls='systemctl status clash'
 alias clr='systemctl restart clash'
