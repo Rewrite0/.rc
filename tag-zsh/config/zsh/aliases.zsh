@@ -27,10 +27,6 @@ alias te='trans en:zh'
 alias tz='trans zh:en'
 #live_wallpaper控制台
 alias vwc=/home/re/prog/dwm/scripts/live-wallpaper-console.sh
-#crontab
-alias cronl='sudo crontab -u re -l'
-alias crone='sudo crontab -u re -e'
-alias cron='sudo crontab -u re'
 # tmux
 alias tn='tmux new -s'
 alias ta='tmux attach -t'
